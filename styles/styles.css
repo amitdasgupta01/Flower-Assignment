@@ -1,1 +1,43 @@
-body{font-family: 'Lato', sans-serif;}
+/* primary part */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;}
+.btn-primary{
+    border-radius: 8px;
+    background: #084b65;
+    border: 0px;
+    color: #5492cf;
+    font-size: 25px;
+    font-weight: 6600;
+    padding: 25px 48px;
+}
+.btn-primary:hover {
+    background-color: rgb(15, 28, 75);
+    color: #d9e80c;
+    cursor: pointer;
+}
+
+/* header section */
+header {
+    color: 272727;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 58px 120px;
+    height: 580px;
+    background: rgba(110, 0, 108, 0.718);
+}
+.header-counter {
+    display: flex;
+    justify-content: space-around;
+    align-items : center;
+}
+.header-description{
+    color: rgba(14, 247, 119, 0.6);
+    font-size: 12px;
+    font-weight: 400;
+}
