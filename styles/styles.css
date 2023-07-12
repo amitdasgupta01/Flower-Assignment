@@ -31,13 +31,244 @@ header {
     height: 580px;
     background: rgba(110, 0, 108, 0.718);
 }
-.header-counter {
+.header-countainer {
     display: flex;
     justify-content: space-around;
-    align-items : center;
+    align-items: center;
 }
+
 .header-description{
     color: rgba(14, 247, 119, 0.6);
     font-size: 12px;
     font-weight: 400;
+}
+
+/*header-featured section */
+.featured-info{
+    height: 420px;
+}
+
+.featured{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.featured-title{
+    font-size: 40px;
+}
+
+.featured-description{
+    margin-top: 32px;
+    color: darkolivegreen;
+}
+
+.featured-img{
+    display: flex;
+    margin-top: 32px;
+}
+
+.img1,
+.img2,
+.img3{
+    margin-top: -170px;
+    margin-bottom: 15px;
+}
+
+.img1{
+    width: auto;
+    height: 400px;
+    border-radius: 120px 120px 0px 0px;
+    background-color: rgb(51, 50, 107);
+    margin-left: 70px;
+}
+
+.img2{
+    width: auto;
+    height: 400px;
+    border-radius: 120px 120px 0px 0px;
+    background-color: rgb(77, 44, 4);
+    margin-left: 70px;
+}
+
+.img3{
+    width:auto;
+    height: 400px;
+    border-radius: 120px 120px 0px 0px;
+    background-color: darkgrey;
+    margin-left:70px;
+}
+
+.img-title, h4{
+    display: flex;
+    justify-content: space-around;
+    color:lightyellow;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+margin-right: 30px;
+margin-bottom: 60px;
+}
+
+/* Delivery-plans section */
+
+.plans{
+    display: flex;
+    justify-content:center;
+    margin-top: 55px;
+    width: 65hr;
+    height: 300px;
+    background: #084b65;
+    padding: 55px;
+    margin: 0px 200px;
+}
+
+.plan-item{
+    text-align: center;
+    margin:auto;
+}
+
+.item-title{
+    color: darkkhaki;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+/* Second-banner section */
+.part2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 50px 100px;
+    height: 600px;
+    background: darkseagreen;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.part2-title{
+    margin-bottom: 20px;
+}
+
+.part2-info{
+    text-align:center;
+}
+
+.part2-des{
+    color: dimgray;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.part2-img{
+    width: 350px;
+    height: 550px;
+}
+
+.insta-information{
+    text-align:center;
+    margin-top: 40px;
+}
+
+/*instagram-section*/
+.insta-title{
+    color: #5492cf;
+    font-size: 40px;
+    font-weight: 100px;
+}
+
+.insta-des{
+    margin-top: 20px;
+    color: cadetblue;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.instagram-images{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 25px 150px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+/8 deals section */
+.deals-container{
+    background-image: url("../images/Rectangle\ 9.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    justify-content:center;
+    margin-left: 40px;
+}
+
+.Deals,
+.subscribe{
+    text-align:center;
+    width:1000px;
+    height: 400px;
+    padding: 25px 25px 25px 250px;
+}
+
+.deals-info{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: lightgoldenrodyellow;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-details{
+    margin-bottom: 15px;
+    color: darkgrey;
+    font-weight: 400;
+}
+
+.contact input{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    width: 80%;
+    font-size: 20px;
+    font-weight:400;
+    padding: 18px 40px;
+}
+
+.subscribe{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-section{
+    background: black;
+    color: #fff;
+    height: 280px;
+    align-items: center;
+    text-align: center;
+    margin-top: 65px;
+    padding: 110px 10px 10px 35px;
+}
+
+.footer-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.footer-description{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.footer-finishing{
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.img{
+    border: 5px;
 }
